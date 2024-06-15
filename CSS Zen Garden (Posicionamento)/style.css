@@ -1,0 +1,83 @@
+/* Color Theme Swatches in Hex */
+/*.destaque{ color: #0B0A0D; }
+.principal{ color: #243E73; }
+.ĐẸP-285:-THE-NEW-ROYALTY-3-hex { color: #1D3159; }
+.backgroud{ color: #8BB4D9; }
+.ĐẸP-285:-THE-NEW-ROYALTY-5-hex { color: #fbfcfd; }*/
+
+
+.page-wrapper{
+    position: relative;
+}
+.explanation{
+    width: 60%;
+    border-right: #1f295c solid 1px;
+    padding-right: 2%;
+}
+#design-selection{
+    position: absolute;
+    top: 560px;
+    left: 62%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.main footer{
+    margin: 4%;
+}
+.main footer a{
+border: solid 2px #0B0A0D;
+padding: 0.5em;
+display: inline-block;
+}
+aside ul{
+    list-style-type: none;
+}
+aside ul li{
+    margin: 1em;
+    text-align: center;
+}
+.page-wrapper{
+    width: 80%;
+    max-width: 1280px;
+    margin: auto;
+}
+#zen-intro{
+    height: 550px;
+}
+#design-acrhhives{
+    display: none;
+}
+#zen-intro header{
+    background-color:#1f295c;
+    color:#fbfcfd;
+}
+#zen-intro header h1, #zen-intro header h2{
+    display: inline-block
+}
+#zen-intro header h1{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+
+
+
+html{
+    background: #fbfcfd;
+    color: #0B0A0D;
+    font-size: 18px;
+    font-family: Helvetica, sans-serif;
+}
+p {
+    text-indent: lem;
+}
+h1,h2,h3{
+text-align: center;
+}
+h1{font-size: 1.8rem;}
+h2{font-size: 1.4rem;}
+h3{font-size: 1.2rem;}
+.summary{text-align: right;}
+.main p{line-height: 1.5;}
+abbr{font-variant: small-caps;}
+
