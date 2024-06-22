@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #004080; /* Cor principal */
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin-top: 60px; /* Espaço para a barra de navegação fixa */
+}
+
+h1 {
+    font-family: 'Georgia', serif; /* Fonte para títulos */
+    font-size: 2em;
+    margin-bottom: 0;
+}
+
+img {
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+#apresentacao p, #contato p {
+    margin: 5px 0;
+}
+
+h2 {
+    font-family: 'Georgia', serif; /* Fonte para títulos */
+    color: #004080; /* Cor principal */
+}
+
+h3 {
+    font-family: 'Georgia', serif; /* Fonte para títulos */
+    color: #008080; /* Cor secundária */
+}
+
+strong {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #002050; /* Cor de fundo do rodapé */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer nav ul li {
+    margin: 0 10px;
+}
+
+footer nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+    }
+}
